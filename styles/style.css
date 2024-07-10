@@ -102,7 +102,8 @@ header nav button:hover {
     margin: 32px 0px;
 
 }
-.banner-btn:hover{
+
+.banner-btn:hover {
     color: rgb(255, 145, 242);
     cursor: pointer;
 }
@@ -203,7 +204,8 @@ header nav button:hover {
     padding: 12px 20px 12px 20px;
     margin: 32px 0px;
 }
-.learn-more-btn:hover{
+
+.learn-more-btn:hover {
     cursor: pointer;
     color: blueviolet;
 }
@@ -306,7 +308,7 @@ header nav button:hover {
 
 .target-container3 {
     width: 364px;
-    height:299px;
+    height: 299px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     margin: 0px 24px;
