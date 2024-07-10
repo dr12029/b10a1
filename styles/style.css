@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+}
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Nav bar styles */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px 48px 150px;
+}
+.nav-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px 17px 24px;
+}
+
+/* Banner styles */
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: none;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 74px;
+}
+.banner-main{
+width: 998px;
+height: 582px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+.banner-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+.banner-btn{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 32px 0px;
+}
+
+/* Why web dev styles */
+.why-web-dev{
+    width: 1140;
+    height: 1393;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.why-web{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+}
+.why-web-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin: 24px 0px;
+}
+.why-web-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.reason-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin-bottom: 32px;
+    width: 850px;
+    gap: 99px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.reason-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin-bottom: 32px;
+    width: 850px;
+    gap: 99px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.reason-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin: 16px 0px;
+}
+.reason-details{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 16px 0px;
+}
+.learn-more-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+}
+
+/* My inspiration section styles */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 1140px;
+    margin: 90px auto 151px;
+}
+.inspiration-container{
+    width: 852px;
+    margin-bottom: 48px;
+}
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.inspiration-details{
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.my-ins-video{
+    width: 1140px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.video{
+    border-radius: 16px;
+}
+
+/* My Current Target styles */
